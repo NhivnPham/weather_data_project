@@ -8,8 +8,7 @@ def run_weather_data_project():
     """
     Chạy toàn bộ quy trình: lấy dữ liệu, xử lý, lưu, phân tích và trực quan hóa.
     """
-    cities = ["Ho Chi Minh City", "Hanoi", "Da Nang", "Can Tho", "Phu Quoc"] # Thêm/bớt các thành phố bạn muốn
-
+    cities = ["Ho Chi Minh City", "Hanoi", "Da Nang", "Can Tho", "Hue", "Vung Tau", "Ca Mau", "Bac Lieu"] # Thêm/bớt các thành phố bạn muốn
     print("--- Bắt đầu lấy dữ liệu thời tiết ---")
     raw_weather_data = get_weather_data_for_cities(cities)
 

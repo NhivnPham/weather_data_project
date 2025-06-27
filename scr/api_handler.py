@@ -38,7 +38,7 @@ def get_weather_data_for_cities(city_list):
 
 if __name__ == '__main__':
     # Ví dụ sử dụng
-    city_example = "Ho Chi Minh City"
+    city_example = "Bac Lieu"
     weather_data = get_current_weather(city_example)
     if weather_data:
         print(json.dumps(weather_data, indent=4))
